@@ -28,7 +28,7 @@ function _getEnhancers() {
 }
 
 function _enableHotLoader(store) {
-  if (isDevEnv) {
+  if (isDevEnv && (module as any).hot) {
     (module as any).hot.accept("./reducers", () => {
       const nextRootReducer = require("./reducers/index");
       store.replaceReducer(nextRootReducer);

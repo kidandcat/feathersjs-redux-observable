@@ -3,6 +3,7 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "outDir": "./lib/",
+    "baseUrl": "/",
     "target": "es5",
     "sourceMap": true,
     "declaration": true,
