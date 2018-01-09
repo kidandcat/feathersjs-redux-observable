@@ -1,5 +1,5 @@
 {
-  "host": "backend-app.feathersjs.com",
-  "port": "PORT",
+  "host": "",
+  "port": "1234",
   "public": "../frontend/dist",
 }

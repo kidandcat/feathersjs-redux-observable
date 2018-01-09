@@ -6,7 +6,7 @@ export class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>Hello World!</h1>
+        <h1>Clock!</h1>
         <ColorChanger />
         <div>
           Here you have a Clock coloured with <span>Color</span>:
