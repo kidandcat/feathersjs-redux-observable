@@ -33,6 +33,8 @@
     "@feathersjs/express": "^1.1.2",
     "@feathersjs/feathers": "^3.0.5",
     "@feathersjs/socketio": "^3.0.2",
+    "@types/": "feathersjs/socketio-client",
+    "@types/socket.io-client": "^1.4.32",
     "compression": "^1.7.1",
     "cors": "^2.8.4",
     "feathers-memory": "^2.1.0",
