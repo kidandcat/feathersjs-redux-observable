@@ -3,7 +3,8 @@ import { Action } from "redux";
 
 export enum ColorActions {
   changeColor = "CHANGE_COLOR",
-  changeTempColor = "CHANGE_TEMP_COLOR"
+  changeTempColor = "CHANGE_TEMP_COLOR",
+  savedColor = "SAVED_COLOR_IN_SERVER"
 }
 
 export const changeColor: ActionCreator<Action> = (color: string) => {
@@ -17,5 +18,11 @@ export const changeTempColor: ActionCreator<Action> = (color: string) => {
   return {
     type: ColorActions.changeTempColor,
     payload: color
+  };
+};
+
+export const colorSaved: ActionCreator<Action> = (color: string) => {
+  return {
+    type: ColorActions.savedColor
   };
 };

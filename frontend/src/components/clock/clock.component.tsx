@@ -23,7 +23,7 @@ const mapDispatchToProps = {
 @connect(mapStateToProps, mapDispatchToProps)
 export class Clock extends React.Component<ClockProps> {
   componentDidMount() {
-    this.props.tick();
+    //this.props.tick();
   }
 
   render() {
