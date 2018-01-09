@@ -1,4 +1,4 @@
-# Automatika
+# Backend + Frontend
 
 > FeathersJS + [ParcelJS + TypeScript + React + Redux-observable](https://github.com/kidandcat/architecture-react-hot)
 
